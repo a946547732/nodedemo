@@ -4,7 +4,7 @@ const http = require('http')
 const server = http.createServer()
 server.on('request', function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.write("你好啊")
+    res.write("你好啊333")
     res.end();
 })
 
