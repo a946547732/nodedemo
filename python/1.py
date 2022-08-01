@@ -45,3 +45,9 @@ class A: {}
 class B(A): {}
 
 print(isinstance(A(), A), isinstance(B(), A)) # True True B类继承于A类
+
+# bool是int的子类 True == 1 False == 0
+print(issubclass(bool, int)) #True
+print(True == 1, False == 0) #True True
+# print(1 is True, 0 is False) #False False
+
