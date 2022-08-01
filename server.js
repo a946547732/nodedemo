@@ -8,6 +8,6 @@ server.on('request', function (req, res) {
     res.end();
 })
 
-server.listen(3000, function () {
-    console.log('服务器运行中 地址 http://127.0.0.1:3000');
+server.listen(80, function () {
+    console.log('服务器运行中 地址 http://127.0.0.1:80');
 })
