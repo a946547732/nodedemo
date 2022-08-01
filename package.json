@@ -1,0 +1,29 @@
+{
+    "name": "koa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "bin": "app.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "pkg": {
+        "scripts": [
+            "api/*",
+            "config/*",
+            "controllers/*",
+            "utils/*",
+            "controller.js",
+            "app.js"
+        ],
+        "assets": [
+            "static/*"
+        ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
