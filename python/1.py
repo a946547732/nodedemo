@@ -32,8 +32,16 @@
 # from sys import argv, path
 # print(argv, path)
 
-a = b = 2
-print(a, b)
+# a = b = 2
+# print(a, b) #2 2
 
-a, b = 1, 2
-print(a, b)
+# a, b = 1, 2
+# print(a, b) #1 2
+
+# a = 111
+# print(isinstance(a, int)) #True 检查类型
+
+class A: {}
+class B(A): {}
+
+print(isinstance(A(), A), isinstance(B(), A)) # True True B类继承于A类
