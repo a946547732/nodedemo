@@ -51,3 +51,4 @@ print(issubclass(bool, int)) #True
 print(True == 1, False == 0) #True True
 # print(1 is True, 0 is False) #False False
 
+#删除变量 del
